@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombrío - Home</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+    <div id="preloader">
+        <div class="wine-glass"></div>
+        <div class="glass-stem"></div>
+        <div class="glass-base"></div>
+    </div>
+    <div id="mensaje">
+        <div id="ventana-emergente">
+            <div class="contenido-ventana-emergente" data-aos="fade-up">
+                <p>Tengo la edad legal para beber alcohol en mi país.</p>
+                <span>I have the legal age to drink alcohol in my country.</span>
+                <button class="button-ventana-emergente">Sí | Yes</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="redes-sociales">
+        <a href="#"><img src="img/instagram.png"></a>
+        <a href="#"><img src="img/facebook.png"></a>
+        <a href="#"><img src="img/whatsapp.png"></a>
+    </div>
+
+    </div>
+    <header>
+        <nav>
+            <div id="logo"><img src="img/sombrío.png"></div>
+            <ul>
+                <li>
+                    <a href="#varietal">Varietal</a>
+                    <a href="#reserva">Reserva</a>
+                    <a href="#sobre-nosotros">Sobre Nosotros</a>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contenedor-slider">
+            <div class="slider" id="slider">
+                <div class="slider-section">
+                    <div class="slider-img-1">
+                        <h1>El Placer Del Buen Vino</h1>
+                    </div>
+                </div>
+                <div class="slider-section">
+                    <div class="slider-img-2">
+                        <h1>En El Pie De La Cordillera</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-btn slider-btn-right" id="btn-right"><img src="img/slider-btn-right.png"></div>
+            <div class="slider-btn slider-btn-left" id="btn-left"><img src="img/slider-btn-left.png"></div>
+            <!--
+            <div class="wave" style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,0.00 C150.00,150.00 350.00,150.00 500.00,0.00 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f5f3e6;"></path></svg></div>
+            <div class="wave" style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f5f3e6;"></path></svg></div>-->
+    </header>
+    <section id="varietal">
+        <div class="section-titulo">
+            <h4>Varietal</h4>
+        </div>
+        <article data-aos="fade-up">
+            <img id="img-vino" src="img/vino-varietal.png">
+            <div class="p-y-btns">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id risus quis enim suscipit
+                    dapibus.
+                    Proin vestibulum ullamcorper nibh, in ullamcorper nulla vestibulum in. Lorem ipsum dolor sit amet.
+                </p>
+                <div class="contenedor-btn">
+                    <a href="#"><img src="img/store.png">Store</a>
+                    <a href="#"><img src="img/doc.png">Ficha técnica</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section id="reserva">
+        <div class="section-titulo">
+            <h4>Reserva</h4>
+        </div>
+        <article data-aos="fade-up">
+            <img id="img-vino" src="img/vino-reserva.png">
+            <div class="p-y-btns">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id risus quis enim suscipit
+                    dapibus.
+                    Proin vestibulum ullamcorper nibh, in ullamcorper.</p>
+                <div class="contenedor-btn">
+                    <a href="#"><img src="img/store.png">Store</a>
+                    <a href="#"><img src="img/doc.png">Ficha técnica</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section id="sobre-nosotros">
+        <div class="section-titulo">
+            <h4>Sobre Nosotros</h4>
+        </div>
+        <article data-aos="fade-up">
+            <video id="video-sobre-nosotros" src="img/video-sobre-nosotros.mp4" controls></video>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id risus quis enim suscipit dapibus.
+                Proin vestibulum ullamcorper nibh.</p>
+        </article>
+    </section>
+    <section id="contacto">
+        <div class="section-titulo">
+            <h4>Contacto</h4>
+        </div>
+        <form id="form-contacto" name="contacto" data-aos="fade-up" netlify action="mensaje-recibido.html">
+            <div class="div-container">
+                <label for="name" id="name-label">Nombre y Apellido</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="text" id="asunto-label">Asunto</label>
+                <input type="text" name="asunto" id="asunto">
+                <label type="text" id="textarea">Mensaje</label>
+                <textarea name="mensaje" required></textarea>
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Sitio Web desarrollado por Facundo Jalil</p>
+    </footer>
+
+</body>
+
+<script src="js/app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+</html>
