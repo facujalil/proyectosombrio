@@ -552,7 +552,7 @@ footer p {
     }
 
     #logo {
-        margin-left: 1rem;
+        margin-left: 0;
     }
 
     #logo img {
@@ -564,7 +564,7 @@ footer p {
     }
 
     ul {
-        margin-right: 1rem;
+        margin-right: 0;
     }
 
     li a {
