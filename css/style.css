@@ -522,7 +522,7 @@ footer p {
     color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
 
     .contenido-ventana-emergente {
         width: 85%;
@@ -671,5 +671,17 @@ footer p {
 
     footer p {
         font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 920px) {
+    html {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 80%;
     }
 }
