@@ -243,10 +243,8 @@ li {
 }
 
 @font-face {
-  font-family: 'Iron & Brine';
-  src:  url('fonts/Iron & Brine.ttf') format('truetype');
-  font-style: normal;
-  font-weight: normal;
+    font-family: 'Iron & Brine';
+    src: url(../fuentes/Iron\ &\ Brine.ttf);
 }
 
 li a {
