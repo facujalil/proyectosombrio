@@ -685,7 +685,7 @@ footer p {
 
 @media screen and (min-width: 720px) and (max-width: 1050px) {
     html {
-        font-size: 150%;
+        font-size: 160%;
     }
 
     #logo img {
@@ -695,7 +695,7 @@ footer p {
 
 @media screen and (max-width: 380px) {
     html {
-        font-size: 75%;
+        font-size: 80%;
     }
 
     #logo img {
