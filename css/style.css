@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Iron+&+Brine:wght@600&family=Zilla+Slab&family=Open+Sans&family=Cormorant+SC:wght@600');
-@import url(//db.onlinewebfonts.com/c/04b63ebfed57a4993edfb438b4fffb94?family=Iron+&+Brine);
+@import url('https://fonts.cdnfonts.com/css/iron-brine');
 
 * {
     margin: 0;
@@ -248,7 +248,7 @@ li a {
     font-size: 1.4rem;
     margin-right: 1.8rem;
     color: white;
-    font-family: 'Iron & Brine'; src: url("//db.onlinewebfonts.com/t/04b63ebfed57a4993edfb438b4fffb94.eot");
+    font-family: 'Iron & Brine';
     text-transform: uppercase;
 }
 
