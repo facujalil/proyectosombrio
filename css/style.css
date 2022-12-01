@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&family=Open+Sans&family=Cormorant+SC:wght@600');
 
+@font-face {
+    font-family: Iron & Brine;
+    src: url(../fuentes/Iron\ &\ Brine.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -240,11 +245,6 @@ ul {
 
 li {
     list-style: none;
-}
-
-@font-face {
-    font-family: Iron & Brine;
-    src: url(../fuentes/Iron\ &\ Brine.ttf);
 }
 
 li a {
